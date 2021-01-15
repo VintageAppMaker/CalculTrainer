@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="#FFAB00"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/text_operator"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:textColor="#FDFDFD"
+        android:text=""
+        />
+
+    <ScrollView
+        android:id="@+id/scrollBoard"
+        android:layout_weight="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:gravity="right"
+            android:padding="10dp"
+            android:id="@+id/lnScrollBoard"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:paddingTop="10dp"
+        android:layout_weight="0.1"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/text_counter"
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:paddingLeft="5dp"
+            android:textColor="#037533"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_answer"
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|right"
+            android:paddingRight="12dp"
+            android:textColor="#037533"
+            android:text=""
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
