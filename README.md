@@ -9,7 +9,7 @@
 
 특징
 - 흔한 kotlin식 사고방식의 소스코드
-- [인앱업데이트 API](https://developer.android.com/guide/playcore/in-app-updates?hl=ko)
+- [인앱업데이트 API](https://developer.android.com/guide/playcore/in-app-updates?hl=ko) → 구글플레이에 업데이트 있는 지 채크목적
 
 > Context의 확장함수로 정의
 ~~~kotlin
