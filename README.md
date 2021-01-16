@@ -80,21 +80,21 @@ fun Context.processUpdate(fnOk: (Boolean) -> Unit){
 		<meta property="og:image"              content="https://play-lh.googleusercontent.com/vS48CuRkPP92bF-CmaAwovmj7PTgKMjWG0b4sC4_PIcEgvopyIoaGI8GePv7TAiHaw=s180-rw" />
 
     	<script>
-			function isAndroid(){
-				var bExist = (/android/i.test(navigator.userAgent.toLowerCase()));	 
-				if (bExist) {
-					return true;
+            function isAndroid(){
+                var bExist = (/android/i.test(navigator.userAgent.toLowerCase()));	 
+		if (bExist) {
+		    return true;
 
-				} else {
-					return false;
-				}
-			}
+		} else {
+		    return false;
+		}
+            }
 
-			function appLaunch(app_url){
-				if(isAndroid()){
-					location.href = app_url;
-				}
-			}
+            function appLaunch(app_url){
+	        if(isAndroid()){
+		    location.href = app_url;
+		}
+	    }
 		</script>
     </head>
     <body>
